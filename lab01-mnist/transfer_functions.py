@@ -8,7 +8,7 @@ def sigmoid(x):
 
 # derivative of sigmoid
 def dsigmoid(y):
-    return y * (1.0 - y)
+    return np.multiply(y, (1.0 - y))
 
 
 def tanh(x):
@@ -17,4 +17,4 @@ def tanh(x):
 
 # derivative for tanh sigmoid
 def dtanh(y):
-    return 1 - y*y
+    return 1 - np.multiply(y, y)
