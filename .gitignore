@@ -1,4 +1,6 @@
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
+log_files/
 models/
+lab02-tensorflow/MNIST_data/*.gz
